@@ -11,6 +11,8 @@ class ProductController
     public function create(Request $request){
     //    echo 1; die;\\
 
+    // abhigyan pratap singh 27-05-2026
+
     try {
         //code...
        $validated = $request->validate([

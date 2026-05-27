@@ -11,7 +11,7 @@ use App\Http\Controllers\ApiController\ProductController;
 //     ]);
 // });
 
-// echo 1; die;
+// abhigyan pratap singh 27-05-2026
 Route::post('products',[ProductController::class, 'create']);
 Route::get('list/products',[ProductController::class, 'listProducts']);
 Route::get('view/products/{id}',[ProductController::class, 'detail']);

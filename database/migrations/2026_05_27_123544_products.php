@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        //abhigyan pratap singh 27-05-2026
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->string('name');
